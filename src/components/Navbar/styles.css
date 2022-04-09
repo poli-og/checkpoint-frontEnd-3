@@ -80,7 +80,7 @@
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #181a27 !important;
+      background-color: rgb(45, 25, 80, 0.663)  !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -122,7 +122,7 @@
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #6c195e;
+    background: #be50f4 ;
     bottom: 1px;
     left: 0;
     z-index: -1;
