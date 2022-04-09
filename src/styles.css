@@ -25,7 +25,8 @@
 
 ::-webkit-scrollbar-thumb {
   background: #b279d8f5;
-  border-radius: 12px;
+  border-radius: 10px;
+  width:10px;
 }
 
 .btn-dark {
