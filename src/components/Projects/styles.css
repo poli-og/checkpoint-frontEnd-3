@@ -5,6 +5,7 @@
     margin: 10rem auto;
     padding: 0 1rem 0 1rem;
     justify-content: center;
+    
   }
   
   .list-projects {
@@ -31,6 +32,8 @@
     transition: all .2s ease-in-out;
     width: 100%;
     height: auto;
+    position: relative;
+    
     
   }
 
@@ -45,6 +48,7 @@
       padding: 1rem;
       border-radius: 4px !important;
       background-size: cover !important;
+      position:relative;
   }
 
   .name-project {

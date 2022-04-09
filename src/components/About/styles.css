@@ -17,6 +17,7 @@ banner {
 banner>img {
     border-radius: 8px;
     background-size: cover;
+    z-index: 10;
 }
 
 .about-title {
