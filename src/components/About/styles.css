@@ -1,0 +1,35 @@
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+banner {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+banner>img {
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.about-title {
+    font-family: "Press Start 2P", cursive;
+    text-align: left !important;
+    padding: 3rem;
+}
+
+.text {
+    font-family: "Orbitron", sans-serif;
+    text-align: justify;
+    width: 800px;
+    margin-bottom: 300px;
+}
+
+

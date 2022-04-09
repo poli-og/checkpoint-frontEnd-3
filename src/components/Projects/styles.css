@@ -1,0 +1,59 @@
+
+  .projects {
+    max-width: 1180px;
+    height: auto;
+    margin: 10rem auto;
+    padding: 0 1rem 0 1rem;
+    justify-content: center;
+  }
+  
+  .list-projects {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    padding: 0;
+  }
+  
+  .title-project {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 500;
+  }
+  
+  .card-projects {
+    background: #20232a;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .card-projects:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0px 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  }
+  
+  .image {
+      text-align: center;
+      padding: 1rem;
+      border-radius: 4px !important;
+      background-size: cover !important;
+  }
+
+  .name-project {
+    font-weight: 300;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    padding: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }

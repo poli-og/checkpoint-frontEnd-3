@@ -1,0 +1,36 @@
+
+
+footer {
+    text-align: center;
+    background: blueviolet;
+    width: 100%;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    z-index: 99;
+    position: absolute;
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    margin: 0 !important;
+    color: white;
+    font-family: "Raleway", serif;
+    font-size: 1.2rem !important;
+}
+
+.btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #9061f9;
+    width: 5%;
+    cursor: pointer;
+}

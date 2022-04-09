@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+#tsparticles {
+  position: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b279d8f5;
+  border-radius: 12px;
+}
+
+.btn-dark {
+  position: fixed;
+  color: #f6f5ff !important;
+  background-color: transparent !important;
+  top: 105px;
+  right: 25px;
+  width: 3%;
+}
+
+.btn-moon {
+  background-color: #986bfa !important;
+  color: #986bfa !important;
+  width: 55px !important;
+  height: 55px !important;
+  top: 100px;
+  right: 20px;
+  border: solid 3px;
+  border-color: #986bfa;
+  border-radius: 35px;
+  position: fixed;
+  z-index: 10;
+}
+
+.light-mode {
+  background-color: #CBC3EE;
+  color:#2d1950;
+}
+
+.light-mode .name-project {
+  color:#2d1950;
+}
+.light-mode .card-projects {
+  background: #bb9dfb;
+}
