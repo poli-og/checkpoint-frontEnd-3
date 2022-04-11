@@ -28,14 +28,10 @@ h3 {
 
 .btn-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 20px !important;
+    right: 20px !important;
     color: #9061f9;
     width: 5%;
     cursor: pointer;
 }
 
-.scroll-top {
-    bottom: 20px;
-    right: 20px;
-}
